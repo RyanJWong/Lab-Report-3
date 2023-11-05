@@ -124,3 +124,5 @@ grep -c "the" ./technical/biomed/1468-6708-3-3.txt
 The -c flag counts the number of lines that contain the string. So "the" is counted in the file 1468-6708-3-3.txt 103 times.
 
 The -c flag is extremely useful especially when you don't want to know which line contains the string, the count gives you information about how many lines contain the string, reducing output size.
+
+For each of these commands, I asked chat-gpt about good grep options.
