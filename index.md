@@ -50,6 +50,8 @@ Now we can see the tests working correctly!
 
 ## Part 2 - Researching Commands
 For my command, I chose to find options about the grep command.
+I prompted Chat-GPT: 
+![Image](prompt.png)
 1. grep -i
 ```shell
 grep -i "wE hAve" technical/911report/chapter-1.txt
