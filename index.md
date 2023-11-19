@@ -26,6 +26,9 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{ 3 }, input1);
 }
 ```
+Here is the test for this case passing:
+![Image](good.png)
+
 ![Image](tests.png)
 Here we can see the expected output, with the test succeeding for the array of length one, but failing for the array of length 3. For the length 3, we can see  that the left half was overwritten by the right side. The test expects the third element to contain a 3, but it is instead a 5, as 3 was not correctly swapped with 5.
 
@@ -50,6 +53,8 @@ Now we can see the tests working correctly!
 
 ## Part 2 - Researching Commands
 For my command, I chose to find options about the grep command.
+I prompted Chat-GPT: 
+![Image](prompt.png)
 1. grep -i
 ```shell
 grep -i "wE hAve" technical/911report/chapter-1.txt
