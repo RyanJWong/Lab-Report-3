@@ -57,6 +57,7 @@ Keys pressed: git add --all
 ```bash
 <enter>
 ```
+![Image](step7.png)
 git commit -m "Fixes"
 ```bash
 <enter>
